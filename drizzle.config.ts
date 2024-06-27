@@ -8,5 +8,5 @@ export default {
   dbCredentials: {
     url: env.DATABASE_URL,
   },
-  tablesFilter: ["typescript_guild_validation_*"],
+  tablesFilter: ["ts_guild_*"],
 } satisfies Config;
